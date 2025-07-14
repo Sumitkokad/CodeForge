@@ -1,0 +1,122 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 50;
+  background-color: rgba(10, 14, 23, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(42, 54, 85, 0.5);
+}
+
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text-light, #e2e8f0);
+}
+
+.navbar-highlight {
+  color: #0066ff;
+  background: linear-gradient(90deg, #0066ff, #00ccff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.codebot-button {
+  border-color: #0066ff;
+  color: #00ccff;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.codebot-button:hover {
+  background-color: rgba(0, 102, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.2);
+}
+
+.login-button {
+  background-color: #0066ff;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0052cc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.3);
+}
+
+.profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-icon-button {
+  padding: 0.4rem;
+  border-radius: 50%;
+  color: #00ccff;
+  transition: all 0.3s ease;
+}
+
+.profile-icon-button:hover {
+  background-color: rgba(0, 102, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background-color: #1a2236;
+  border: 1px solid #2a3655;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  z-index: 999;
+  border-radius: 8px;
+  min-width: 120px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logout-button {
+  width: 100%;
+  justify-content: start;
+  color: #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: rgba(0, 102, 255, 0.1);
+}

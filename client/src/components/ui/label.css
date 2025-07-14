@@ -1,0 +1,14 @@
+.label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #e2e8f0;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.label:hover {
+  color: #00ccff;
+}

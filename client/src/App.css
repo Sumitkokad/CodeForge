@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  padding: 1rem;
+  /* max-width: 800px; */
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+}
