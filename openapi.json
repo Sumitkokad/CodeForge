@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "CodeForge API",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "OpenAPI contract used for API Analyzer CI testing."
   },
   "servers": [
