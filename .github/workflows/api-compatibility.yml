@@ -1,0 +1,6 @@
+api-base-url: 'https://api-analyzer-backend.onrender.com'
+project-id: ${{ secrets.API_ANALYZER_PROJECT_ID }}
+token: ${{ secrets.API_ANALYZER_TOKEN }}
+spec-path: 'openapi.json'
+baseline-mode: 'merge-base'
+fail-on-error: 'true'
